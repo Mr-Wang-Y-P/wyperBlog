@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { formatDistanceToNow } from 'date-fns';
 import { zhCN } from 'date-fns/locale';
 
-const API_URL = 'http://localhost:7894/api/talk';
+const API_URL = 'https://wyperblognode.wyper.cloud/api/talk';
 
 const ChatDrawer = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -80,7 +80,7 @@ npm run dev
 ```bash
 npm run server
 ```
-或者 `node server/server.js`。后端服务将在 `http://localhost:7894` 启动。
+或者 `node server/server.js`。后端服务将在 `https://wyperblognode.wyper.cloud` 启动。
 
 ### 2. 连接前端与后端
 默认情况下，前端使用 `localStorage` 模拟数据，以便在无后端环境下预览。

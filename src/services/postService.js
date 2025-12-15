@@ -1,7 +1,7 @@
 import { db } from '../utils/dataManager';
 
 // 配置后端 API 地址
-const API_URL = 'http://localhost:7894/api/posts';
+const API_URL = 'https://wyperblognode.wyper.cloud/api/posts';
 
 export const postService = {
   // 获取所有文章
