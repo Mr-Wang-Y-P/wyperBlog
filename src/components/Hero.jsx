@@ -91,7 +91,7 @@ const Hero = () => {
       if (iteration1 >= targetTitle.length && iteration2 >= targetSubtitle.length) {
         clearInterval(interval);
       }
-    }, 30);
+    }, 5 * 6000);
 
     return () => clearInterval(interval);
   }, []);
