@@ -53,7 +53,7 @@ const ChatDrawer = () => {
   useEffect(() => {
     getCurrentUser(); // 获取当前用户
     fetchMessages(); // Initial fetch
-    const interval = setInterval(fetchMessages, 300); // Poll every 2s
+    const interval = setInterval(fetchMessages, 9000); // Poll every 2s
 
     return () => clearInterval(interval);
   }, []);
